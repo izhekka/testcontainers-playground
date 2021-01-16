@@ -1,0 +1,29 @@
+{
+  "name": "node-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_CONFIG_DIR=config node src/index.js",
+    "test": "NODE_CONFIG_DIR=config jest"
+  },
+  "dependencies": {
+    "bluebird": "2.10.2",
+    "bluebird-retry": "0.11.0",
+    "config": "3.3.3",
+    "pg": "6.4.1",
+    "pg-promise": "6.3.6",
+    "sql": "0.78.0"
+  },
+  "devDependencies": {
+    "@trendyol/jest-testcontainers": "2.0.0",
+    "jest": "25.5.4"
+  },
+  "jest": {
+    "modulePaths": [
+      "./src/"
+    ],
+    "preset": "@trendyol/jest-testcontainers",
+    "testTimeout": 30000
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/node/node.iml" filepath="$PROJECT_DIR$/node/node.iml" />
+      <module fileurl="file://$PROJECT_DIR$/node-jest/node-jest.iml" filepath="$PROJECT_DIR$/node-jest/node-jest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testcontainers-playground.iml" filepath="$PROJECT_DIR$/testcontainers-playground.iml" />
+    </modules>
+  </component>
+</project>
